@@ -288,25 +288,25 @@ public class CakeGUI
   {
     // a try is like an if statement, "throwing" an error if the body of the try fails
     try {
-      kitchenImage = ImageIO.read(new File("kitchen.png"));      
+      kitchenImage = ImageIO.read(new File("images/kitchen.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file kitchen.png"); } 
     try {
-      cakeImage = ImageIO.read(new File("oneTierCake.png"));      
+      cakeImage = ImageIO.read(new File("images/oneTierCake.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file oneTierCake.png"); }  
     try {
-      twoTierCakeImage = ImageIO.read(new File("twoTierCake.png"));      
+      twoTierCakeImage = ImageIO.read(new File("images/twoTierCake.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file twoTierCake.png"); } 
     try {
-      threeTierCakeImage = ImageIO.read(new File("threeTierCake.png"));      
+      threeTierCakeImage = ImageIO.read(new File("images/threeTierCake.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file threeTierCake.png"); }
     try {
-      cakeCandlesImage = ImageIO.read(new File("oneTierCakeCandles.png"));
+      cakeCandlesImage = ImageIO.read(new File("images/oneTierCakeCandles.png"));
     } catch (Exception e) { System.err.println("Warning: Could not open file oneTierCakeCandles.png"); }  
     try {
-      twoTierCakeCandlesImage = ImageIO.read(new File("twoTierCakeCandles.png"));      
+      twoTierCakeCandlesImage = ImageIO.read(new File("images/twoTierCakeCandles.png"));      
     } catch (Exception e) { System.err.println("Warning: Could not open file twoTierCakeCandles.png"); } 
     try {
-      threeTierCakeCandlesImage = ImageIO.read(new File("threeTierCakeCandles.png"));      
+      threeTierCakeCandlesImage = ImageIO.read(new File("images/threeTierCakeCandles.png"));      
     } catch (Exception e) { System.err.println("Warning:Could not open file threeTierCakeCandles.png"); }
   }
 }
